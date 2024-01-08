@@ -1,0 +1,36 @@
+.one{
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+nav li{
+    list-style: none;
+}
+.two a{
+    display: flex;
+}
+.three{
+    display: none;
+}
+nav li:hover .three{
+    display: block;
+    background-color: aquamarine;
+    position: relative;
+}
+.one a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+td,th{
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 8% 0px 0px 5%;
+}
+.one a:hover{
+    background-color: red;
+}
